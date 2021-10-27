@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/wix/react-native-interactable.git" }
   s.source_files  = "lib/ios/Interactable/*.{h,m}"
 
-  s.dependency 'React'
+  s.dependency 'React-Core'
 end
